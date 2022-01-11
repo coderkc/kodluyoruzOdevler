@@ -1,0 +1,106 @@
+.search {
+    &_form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 584px;
+        height: 46px;
+        margin: 25px auto;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+
+        &:hover {
+            box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+            border-color: rgba(223, 225, 229, 0);
+        }
+    }
+
+    &_icon {
+        padding:0 13px;
+    }
+
+    &_input {
+        width: 480px;
+        input {
+            width: 480px;
+            font-size: 16px;
+            height: 34px;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+    }
+
+    &_voice {
+        position: relative;
+        padding: 13px;
+
+        &::before,
+        &::after {
+            position: absolute;
+            opacity: 0;
+            transition: all 0.8s;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            &::before,
+            &::after {
+                opacity: 1;
+            }
+        }
+
+        &::before {
+            content: "";
+            top: 35px;
+            left: 11px;
+            border: 8px solid transparent;
+            border-bottom-color: #1e1e1e;
+        }
+
+        &::after {
+            content: "Search by voice";
+            top: 50px;
+            left: -33px;
+            width: 88px;
+            padding: 6px;
+            font-size: 12px;
+            background: #1e1e1e;
+            color: #fff;
+        }
+    }
+
+    &_buttons {
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        input {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            padding: 0 16px;
+            height: 36px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0 1px 3px rgb(32, 33 ,36,.35);
+                border-color: rgba(45, 45, 45, 0.2);
+            }
+        }
+
+        .google-search {
+            width: 126px;
+        }
+
+        .feeling-lucky {
+            width: 140px;
+        }
+    }
+}

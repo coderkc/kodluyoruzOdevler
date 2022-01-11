@@ -1,0 +1,18 @@
+@media (max-width: 666px) {
+    .search {
+        &_form {
+            width: 90%;
+        }
+        &_input {
+            width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

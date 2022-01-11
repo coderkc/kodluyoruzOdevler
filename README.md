@@ -10,3 +10,5 @@
 
 ### [CSS Ödev\_\_01](https://coderkc.github.io/kodluyoruzOdevler/css-odev1/)
 
+### [CSS Ödev\_\_02](https://coderkc.github.io/kodluyoruzOdevler/css-odev2/)
+
