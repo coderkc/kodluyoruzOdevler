@@ -1,11 +1,13 @@
 .header {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 10px 15px;
 
     &_inner {
         display: flex;
         align-items: center;
+        justify-content: flex-end;
+
     }
 
     &_links {

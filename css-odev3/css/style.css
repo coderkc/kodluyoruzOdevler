@@ -28,6 +28,7 @@ li {
 .header_inner {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 .header_links {
   margin-right: 10px;
