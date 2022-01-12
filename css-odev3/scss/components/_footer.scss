@@ -1,25 +1,50 @@
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.footer {
     background: #f2f2f2;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-   min-height: 47px;
-    line-height: 47px;
-    font-size: 14px;
-    border-top: 1px solid #dadce0;
+    color: #70757a;
+    font-size: 1.1em;
+    padding: 0 30px;
+
+    .area {
+        border-bottom: 1px solid rgb(220, 220, 220);
+        padding: 10px;
+    }
 
     ul {
         display: flex;
+    }
 
-        li {
-            margin: 0 15px;
-            color: #70757a;
+    &_bot {
+        display: flex;
+        flex-wrap: wrap;
 
-            a {
-                color: inherit;
+        a {
+            display: inline-block;
+            color: inherit;
+            padding: 15px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .info{
+            flex: 30%;
+        }
+
+        .ads {
+            flex: 30%;
+
+            span {
+                display: inline-block;
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC");
+                    transform: scale(0.5);
+                    left: -22px;
+                    top: -3px;
+                }
 
                 &:hover {
                     text-decoration: underline;
