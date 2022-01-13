@@ -12,3 +12,4 @@
 
 ### [CSS Ödev\_\_03](https://coderkc.github.io/kodluyoruzOdevler/css-odev3/)
 
+### [Bs Ödev\_\_01](https://coderkc.github.io/kodluyoruzOdevler/bs-odev1/)
