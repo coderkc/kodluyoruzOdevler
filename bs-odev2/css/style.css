@@ -1,0 +1,125 @@
+body {
+  background-color: #fafafa;
+}
+input::placeholder {
+  font-size: 14px;
+  padding-left: 24px;
+  background: url(../asset/search.svg) no-repeat;
+  background-position: 0%;
+  background-size: 1.1em;
+  color: #6f6f6f !important;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #e7e7e7;
+}
+
+.postuserfont {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 0.2em;
+  background: radial-gradient(circle, #fff 65%, transparent 66%),
+    conic-gradient(#c32aa3, #f46f30, #ffdc7d, #c32aa3);
+}
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cc {
+  max-width: 975px;
+  width: 100%;
+}
+
+.search {
+  max-width: 268px;
+  width: 100%;
+  padding: 0;
+}
+
+.d-mob {
+  display: none;
+}
+
+.dot a {
+  position: relative;
+  margin-right: 5px;
+}
+
+.dot a::after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  right: -5px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+@media screen and (max-width: 640px) {
+  .nope {
+    display: none;
+  }
+
+  .logo {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cc > div {
+    justify-content: space-between;
+  }
+
+  .mob {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 1em;
+    background: #fff;
+  }
+
+  .d-mob {
+    display: block;
+  }
+
+  .bt{
+    border-top: 1px solid rgb(213, 213, 213);
+  }
+  .mob-none {
+    display: none;
+  }
+
+  .f-mob {
+    display: flex;
+  }
+}

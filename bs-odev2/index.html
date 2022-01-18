@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>InstagramClone | İhsan Coder</title>
+</head>
+
+<body>
+  <header style="height: 54px;" class="container-fluid d-flex align-items-center bg-white sticky-top border">
+    <div class="container cc">
+      <div class="row d-flex align-items-center">
+        <!-- Mobile cam icon -->
+        <div class="col-2 d-mob" style="width: 40px;">
+          <a href="#">
+            <img src="./asset/story.svg" alt="">
+          </a>
+        </div>
+        <div class="col-8 col-sm-3 col-md-4 f-mob justify-content-center logo">
+          <div class="logo">
+            <a class="navbar-brand" href="#">
+              <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+                alt="logo" />
+            </a>
+          </div>
+        </div> <!-- LOGO - END -->
+        <div class="col nope search">
+          <form class="form-inline">
+            <input class="form-control empty border-0" type="search" placeholder="Ara"
+              style="font-family: Arial, FontAwesome; height: 36px;" aria-label="Search" />
+          </form>
+        </div> <!-- SEARCH - END -->
+        <div class="col col-sm-6 col-md-4 ms-auto mob bt">
+          <ul class="nav flex-nowrap justify-content-between">
+            <li class="nav-item" style="width: 40px;">
+              <a class="nav-link" href="./">
+                <img src="./asset/home.svg" alt="ana sayfa">
+                <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item mob-none" style="width: 40px;">
+              <a class="nav-link" href="#">
+                <img src="./asset/messenger.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item d-mob" style="width: 40px;">
+              <a class="nav-link" href="#">
+                <img src="./asset/search-m.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item" style="width: 40px;">
+              <a href="#" class="nav-link">
+                <img src="./asset/new.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item  mob-none" style="width: 40px;">
+              <a class="nav-link" href="#">
+                <img src="./asset/explore.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item" style="width: 40px;">
+              <a class="nav-link" href="#">
+                <img src="./asset/flow.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/coder_kc" target="_blank">
+                <img src="./asset/coderkc.jpg" style="width: 24px; height: 24px; border-radius: 50%;" /></a>
+            </li>
+          </ul>
+        </div> <!-- NAV - END -->
+        <!-- Mobile messenger icon-->
+        <div class="col-2 d-mob" style="width: 40px;">
+          <a href="#">
+            <img src="./asset/messenger.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container cc">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 mx-auto">
+        <div class="row">
+          <section class="col">
+            <div class="card mt-4 overflow-hidden">
+              <div class="card-body d-flex">
+                <a class="d-flex flex-column mx-2" href="https://www.instagram.com/kodluyoruz"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/kod.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext">kodluyoruz</span>
+                </a>
+                <a class="d-flex flex-column mx-1" href="https://www.instagram.com/furkantolgayuce"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/3.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext">furkantolga..</span>
+                </a>
+                <a class="d-flex flex-column mx-2" href="https://www.instagram.com/elonrmuskk"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/6.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext">elonrmuskk</span>
+                </a>
+                <a class="d-flex flex-column mx-1" href="https://www.instagram.com/hakanyalcinkaya"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/5.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext">hakanyalcin..</span>
+                </a>
+                <a class="d-flex flex-column mx-2" href="https://www.instagram.com/ozgeacik"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/2.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext me-2">ozgeacik</span>
+                </a>
+                <a class="d-flex flex-column mx-1" href="https://www.instagram.com/kablosuzkedi"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/4.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext">kablosuzkedi</span>
+                </a>
+                <a class="d-flex flex-column mx-2" href="https://www.instagram.com/gulcanyayla"
+                  style="text-decoration: none;" target="_blank">
+                  <img src="./asset/1.jpg" class="storyphoto img-fluid" />
+                  <span class="storytext">gulcanyayla</span>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div> <!-- Story - END -->
+        <div class="row">
+          <section class="col">
+            <div class="card mt-4">
+              <div class="card-header d-flex align-items-center justify-content-between bg-white">
+                <div>
+                  <img src="./asset/7.jpg" class="me-2 rounded-circle" style="width: 35px; height: 35px;" />
+                  <span class="postuserfont">
+                    <strong>
+                      <a class="text-black" href="https://www.instagram.com/cengizcmataraci"
+                        target="_blank">cengizcmataraci</a>
+                    </strong>
+                  </span>
+                </div>
+                <span>
+                  <strong>
+                    <img src="./asset/other.svg" alt="other icon">
+                  </strong></span>
+              </div> <!-- Card-Header - END -->
+              <div class="card-body p-0">
+                <!-- card image -->
+                <img src="https://blog.biletbayi.com/wp-content/uploads/2019/12/rize.jpg" class="card-img-top"
+                  alt="..." />
+                <!-- like-comment-share bookmark group -->
+                <ul class="list-group list-group-horizontal 5justify-content-between mt-1"
+                  style="list-style-type: none;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/flow.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/comment.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/share.svg" alt="">
+                    </a>
+                  </li>
+                  <span class="d-flex ms-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">
+                        <img src="./asset/save.svg" alt="">
+                      </a>
+                    </li>
+                  </span>
+                </ul>
+                <!-- like group -->
+                <div class=" my-1 mx-3">
+                  <img src="./asset/coderkc.jpg" class="rounded-circle" style="width: 23px; height: 23px; " />
+                  <span class="postuserfont"><strong>coder_kc</strong> ve
+                    <strong>42 diğer kişi</strong> beğendi</span>
+                </div>
+                <!-- comment lines -->
+                <div class="mx-4 my-2">
+                  <p class="card-text postuserfont">
+                    <strong style="margin-left: -4px; margin-right: 5px">cengizcmataraci</strong>Burası Rize! Harika bir
+                    cennet!
+                  </p>
+                  <a href="#" style="text-decoration: none">
+                    <p class="card-text postuserfont" style=" margin-left: -4px; margin-top: -14px; color: rgb(139, 133, 133); ">
+                      15 yorumun tümünü gör
+                    </p>
+                  </a>
+                  <p class="card-text postuserfont">
+                    <strong style="margin-left: -4px; margin-right: 5px">furkantolgayuce</strong>Abi çok güzelmiş yaa!
+                    Bir gün
+                    götürürsün artık bizi de:)
+                  </p>
+                  <p class="card-text postuserfont" style="margin-top: -15px">
+                    <strong style="margin-left: -4px; margin-right: 5px">elonrmuskk</strong>That's wonderful view bro! I
+                    always want to travel Rize...
+                  </p>
+                  <p class="card-text" style="margin-top: -10px;margin-left: -4px;font-size: 12px;color: rgb(139, 133, 133);">
+                    10 SAAT ÖNCE
+                  </p>
+                </div>
+              </div> <!-- Card-Body - END -->
+              <div class="card-footer d-flex bg-white text-muted" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;font-size: 14px;">
+                <img src="./asset/smile.svg" alt="">
+                <span class="ms-2">Yorum Ekle...</span>
+                <span class="ms-auto" style="color: #0095f6; opacity: 50%"><strong>Paylaş</strong></span>
+              </div> <!-- Card-Footer - END -->
+            </div> <!-- CARD - end -->
+            <div class="card mt-4">
+              <div class="card-header d-flex align-items-center justify-content-between bg-white">
+                <div>
+                  <img src="./asset/kod.jpg" class="me-2 rounded-circle" style="width: 35px; height: 35px;" />
+                  <span class="postuserfont">
+                    <strong>
+                      <a class="text-black" href="https://www.instagram.com/cengizcmataraci" target="_blank">kodluyoruz</a>
+                    </strong>
+                  </span>
+                </div>
+                <span>
+                  <strong>
+                    <img src="./asset/other.svg" alt="other icon">
+                  </strong></span>
+              </div> <!-- Card-Header - END -->
+              <div class="card-body p-0">
+                <!-- card image -->
+                <img src="https://pbs.twimg.com/media/Erx2B2bXAAEy7gO.jpg" class="card-img-top" alt="..." />
+                <!-- like-comment-share bookmark group -->
+                <ul class="list-group list-group-horizontal 5justify-content-between mt-1" style="list-style-type: none;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/flow.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/comment.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/share.svg" alt="">
+                    </a>
+                  </li>
+                  <span class="d-flex ms-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">
+                        <img src="./asset/save.svg" alt="">
+                      </a>
+                    </li>
+                  </span>
+                </ul>
+                <!-- like group -->
+                <div class=" my-1 mx-3">
+                  <img src="./asset/coderkc.jpg" class="rounded-circle" style="width: 23px; height: 23px; " />
+                  <span class="postuserfont"><strong>coder_kc</strong> ve
+                    <strong>670 diğer kişi</strong> beğendi</span>
+                </div>
+                <!-- comment lines -->
+                <div class="mx-4 my-2">
+                  <p class="card-text postuserfont">
+                    <strong style="margin-left: -4px; margin-right: 5px">kodluyoruz</strong>Barış Balta ile AWS Quick Start Etkinliği #1 30 Ocak Cumartesi günü saat 10:00-15:30'da!
+                  </p>
+                  <a href="#" style="text-decoration: none">
+                    <p class="card-text postuserfont" style="margin-left: -4px;margin-top: -14px;color: rgb(139, 133, 133);">
+                      60 yorumun tümünü gör
+                    </p>
+                  </a>
+                  <p class="card-text postuserfont">
+                    <strong style="margin-left: -4px; margin-right: 5px">cengizcmataraci</strong>Harika! Kesinlikle
+                    katılacağım! :)
+                  </p>
+                  <p class="card-text postuserfont" style="margin-top: -15px">
+                    <strong style="margin-left: -4px; margin-right: 5px">kablosuzbeyin</strong>Topluluk olarak
+                    heyecanlıyız!
+                  </p>
+                  <p class="card-text" style="margin-top: -10px;margin-left: -4px;font-size: 12px;color: rgb(139, 133, 133);">
+                    10 SAAT ÖNCE
+                  </p>
+                </div>
+              </div> <!-- Card-Body - END -->
+              <div class="card-footer d-flex bg-white text-muted" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;font-size: 14px;">
+                <img src="./asset/smile.svg" alt="">
+                <span class="ms-2">Yorum Ekle...</span>
+                <span class="ms-auto" style="color: #0095f6; opacity: 50%"><strong>Paylaş</strong></span>
+              </div> <!-- Card-Footer - END -->
+            </div> <!-- CARD - end -->
+            <div class="card mt-4 mb-5">
+              <div class="card-header d-flex align-items-center justify-content-between bg-white">
+                <div>
+                  <img src="./asset/6.jpg" class="me-2 rounded-circle" style="width: 35px; height: 35px;" />
+                  <span class="postuserfont">
+                    <strong>
+                      <a class="text-black" href="https://www.instagram.com/cengizcmataraci"
+                        target="_blank">elonrmuskk</a>
+                    </strong>
+                  </span>
+                </div>
+                <span>
+                  <strong>
+                    <img src="./asset/other.svg" alt="other icon">
+                  </strong></span>
+              </div> <!-- Card-Header - END -->
+              <div class="card-body p-0">
+                <!-- card image -->
+                <img src="https://i.insider.com/5f1b201a5af6cc7e1b741330?width=1136&format=jpeg" class="card-img-top" alt="..." />
+                <!-- like-comment-share bookmark group -->
+                <ul class="list-group list-group-horizontal 5justify-content-between mt-1" style="list-style-type: none;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/flow.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/comment.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./asset/share.svg" alt="">
+                    </a>
+                  </li>
+                  <span class="d-flex ms-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">
+                        <img src="./asset/save.svg" alt="">
+                      </a>
+                    </li>
+                  </span>
+                </ul>
+                <!-- like group -->
+                <div class=" my-1 mx-3">
+                  <img src="./asset/coderkc.jpg" class="rounded-circle" style="width: 23px; height: 23px; " />
+                  <span class="postuserfont"><strong>coder_kc</strong> ve
+                    <strong>900.182 diğer kişi</strong> beğendi</span>
+                </div>
+                <!-- comment lines -->
+                <div class="mx-4 my-2">
+                  <p class="card-text postuserfont">
+                    <strong style="margin-left: -4px; margin-right: 5px">elonrmussk</strong>That's just beautiful!
+                  </p>
+                  <a href="#" style="text-decoration: none">
+                    <p class="card-text postuserfont" style="margin-left: -4px;margin-top: -14px;color: rgb(139, 133, 133);">
+                      1500 yorumun tümünü gör
+                    </p>
+                  </a>
+                  <p class="card-text postuserfont">
+                    <strong style="margin-left: -4px; margin-right: 5px">cengizcmataraci</strong>Yeah! Here you go!
+                  </p>
+                  <p class="card-text postuserfont" style="margin-top: -15px">
+                    <strong style="margin-left: -4px; margin-right: 5px">spacex</strong>When are we moving?
+                  </p>
+                  <p class="card-text" style="margin-top: -10px;margin-left: -4px;font-size: 12px;color: rgb(139, 133, 133);">
+                    10 SAAT ÖNCE
+                  </p>
+                </div>
+              </div> <!-- Card-Body - END -->
+              <div class="card-footer d-flex bg-white text-muted" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;font-size: 14px;">
+                <img src="./asset/smile.svg" alt="">
+                <span class="ms-2">Yorum Ekle...</span>
+                <span class="ms-auto" style="color: #0095f6; opacity: 50%"><strong>Paylaş</strong></span>
+              </div> <!-- Card-Footer - END -->
+            </div> <!-- CARD - end -->
+          </section>
+        </div> <!-- Content - END-->
+      </div> <!-- Main Content - END-->
+      <div class="col-lg-4 d-none d-lg-block mt-3 sticky-top" style="height: 159px;top: 75px;">
+        <div class="card bg-transparent border-0">
+          <div class="card-header bg-transparent border-0 d-flex align-items-center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;font-size: 15px;">
+            <img src="./asset/coderkc.jpg" alt="" class="img-fluid rounded-circle" style="width: 60px; height: 60px;">
+            <div class="d-flex flex-column ms-3">
+              <span><strong>coder_kc</strong></span>
+              <span class="text-muted">Coder KC</span>
+            </div>
+            <a href="#" class="ms-auto fw-bold">Geçiş Yap</a>
+          </div> <!-- Sidebar header END -->
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-7">
+                <span class="text-muted fw-bold postuserfont">Senin İçin Öneriler</span>
+              </div>
+              <div class="col-5 text-end">
+                <span class="fw-bold" style="font-size: 13px;">Tümünü Gör</span>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-2">
+                <img src="./asset/pat.jpg" alt="" style="width: 30px; height: 30px;" class="rounded-circle">
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com/patika.dev/" target="_blank">
+                  <span class="postuserfont"><strong>patika.dev</strong></span>
+                </a>
+              </div>
+              <div class="col-4 text-end">
+                <span class="postuserfont" style="font-size: 13px; color: #0095f6;">
+                  <strong>Takip Et</strong></span>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-2">
+                <img src="./asset/kabb.jpg" alt="" style="width: 30px; height: 30px;" class="rounded-circle">
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com/kablosuzbeyin" target="_blank">
+                  <span class="postuserfont"><strong>kablosuzbeyin</strong></span>
+                </a>
+              </div>
+              <div class="col-4 text-end">
+                <span class="postuserfont" style="font-size: 13px; color: #0095f6;">
+                  <strong>Takip Et</strong></span>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-2">
+                <img src="./asset/fcc.jpg" alt="" style="width: 30px; height: 30px;" class="rounded-circle">
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com/freecodecamp/" target="_blank">
+                  <span class="postuserfont"><strong>freecodecamp</strong></span>
+                </a>
+              </div>
+              <div class="col-4 text-end">
+                <span class="postuserfont" style="font-size: 13px; color: #0095f6;">
+                  <strong>Takip Et</strong></span>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-2">
+                <img src="./asset/td.jpg" alt="" style="width: 30px; height: 30px;" class="rounded-circle">
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com/turkishdictionary/" target="_blank">
+                  <span class="postuserfont"><strong>turkishdictionary</strong></span>
+                </a>
+              </div>
+              <div class="col-4 text-end">
+                <span class="postuserfont" style="font-size: 13px; color: #0095f6;">
+                  <strong>Takip Et</strong></span>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-2">
+                <img src="./asset/cac.jpg" alt="" style="width: 30px; height: 30px;" class="rounded-circle">
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com/codecademy/" target="_blank">
+                  <span class="postuserfont"><strong>codecademy</strong></span>
+                </a>
+              </div>
+              <div class="col-4 text-end">
+                <span class="postuserfont" style="font-size: 13px; color: #0095f6;">
+                  <strong>Takip Et</strong></span>
+              </div>
+            </div>
+          </div> <!-- Sidebar body END -->
+          <div class="card-footer ps-0 bg-transparent border-0">
+            <div class="ms-2 mt-2" style="color: lightgray; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              <span class="dot">
+                <a href="https://about.instagram.com/" target="_blank" class="rightpanellinks">Hakkında</a>
+                <a href="https://help.instagram.com/" target="_blank" class="rightpanellinks">Yardım</a>
+                <a href="https://about.instagram.com/blog/" class="rightpanellinks">Basın</a>
+                <a href="https://www.instagram.com/developer/" class="rightpanellinks">API</a>
+                <a href="https://www.instagram.com/about/jobs/" class="rightpanellinks">İş Fırsatları</a>
+                <a href="https://www.instagram.com/legal/privacy/" class="rightpanellinks">Gizlilik</a>
+              </span>
+              <span class="dot">
+                <a href="https://www.instagram.com/legal/terms/" class="rightpanellinks">Koşullar</a>
+                <a href="https://www.instagram.com/explore/locations/" class="rightpanellinks">Konumlar</a>
+                <a href="https://www.instagram.com/directory/profiles/" class="rightpanellinks">Başlıca Hesaplar</a>
+                <a href="https://www.instagram.com/directory/hashtags/" class="rightpanellinks">Konu Etiketleri</a>
+                Dil
+              </span>
+              <p style="font-size: 12px;">© 2022 INSTAGRAM FROM KODLUYORUZ</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- Sidebar - END -->
+    </div>
+  </main>
+</body>
+</html>
