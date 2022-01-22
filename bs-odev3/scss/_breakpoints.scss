@@ -1,0 +1,151 @@
+@media screen and (max-width: 1200px) {
+  .c-con {
+    max-width: 1000px;
+  }
+
+  .c-content {
+    width: 28rem;
+  }
+  .post-footer {
+    margin-left: -30px;
+  }
+  .post-btn {
+    button {
+      width: 95px;
+      padding: 5px 0;
+    }
+  }
+
+  .size-i {
+    width: 25px !important;
+  }
+
+  .s-right {
+    width: 18rem;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .c-form {
+    display: none;
+  }
+
+  .search-mob {
+    display: block;
+    width: max-content;
+    margin-left: -4%;
+  }
+
+  .c-nav {
+    margin-left: -3%;
+    justify-content: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .c-con {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 852px) {
+  .nav-item.active {
+    border-bottom: 0;
+  }
+
+  i {
+    width: 70px;
+  }
+  .glob-nav .menutext {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c-con {
+    justify-content: center !important;
+  }
+  .d-n{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .search-mob {
+    width: 35px !important;
+    text-align: start !important;
+    margin: 0 0 0 20px !important;
+    padding: 0 0 0 10px !important;
+  }
+
+  nav {
+    overflow: hidden;
+  }
+
+  i {
+    width: 55px !important;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .c-content {
+    margin-left: 0 !important;
+  }
+  .dn {
+    display: none;
+  }
+  header {
+    position: relative !important;
+  }
+
+  .glob-nav,
+  .logo {
+    display: none !important;
+  }
+
+  .mob-nav .msg a {
+    display: block;
+    width: 30px !important;
+    padding-left: 5px !important;
+  }
+
+  .mob-nav {
+    display: flex !important;
+  }
+
+  .mob-nav .c-form {
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .mob-nav input {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .mob-nav input::placeholder {
+    background-size: 1em;
+  }
+
+  .mob-nav li {
+    width: 20%;
+  }
+
+  .text-box {
+    margin-left: 20px !important;
+  }
+
+  .d-btn {
+    display: none;
+  }
+
+  .post-btn {
+    justify-content: space-between;
+
+    .col-3 {
+      width: 33.33% !important;
+    }
+  }
+}
