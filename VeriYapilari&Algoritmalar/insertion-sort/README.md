@@ -17,9 +17,9 @@
 O(n^2)
 <br/>
 
-- Time Complexity:
-Best case :  n
-Avarage case : n^2
+- Time Complexity: <br/>
+Best case :  n <br/>
+Avarage case : n^2 <br/>
 Worst case : 0+1+2+3+4…..+n-1 = [n*(n-1)]/2   :  n^2
 
 <br/>
