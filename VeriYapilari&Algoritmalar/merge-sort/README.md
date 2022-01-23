@@ -15,12 +15,9 @@
 |  |11|16|21|  |  |8 |12|22|  |  |  |
 |  |  |  |8|11|12|16|21|22|  |  |  |
 
-
-
-
 <br />
 
 - Big-O gösterimini yazınız.
-  Best O(n\*log n)
-  Worst O(n\*log n)
-  Average O(n\*log n)
+  Best O(n\*log n)  <br />
+  Worst O(n\*log n) <br />
+  Average O(n\*log n) <br />
