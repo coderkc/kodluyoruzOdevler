@@ -29,10 +29,10 @@ Avarage case
 
 ### [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
-[ 7<font color="red"> | </font>3,5,8,2,9,4,15,6 ]
-[ 3, 7<font color="red"> | </font>5,8,2,9,4,15,6 ]
-[ 3, 5, 7<font color="red"> | </font>8,2,9,4,15,6 ]
-[ 3, 5, 7, 8<font color="red"> | </font>2,9,4,15,6 ]
+[ 7 | 3,5,8,2,9,4,15,6 ]
+[ 3, 7 | 5,8,2,9,4,15,6 ]
+[ 3, 5, 7 | 8,2,9,4,15,6 ]
+[ 3, 5, 7, 8 | 2,9,4,15,6 ]
 
 
 
