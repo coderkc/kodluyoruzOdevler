@@ -17,7 +17,7 @@
 
 <br />
 
-- Big-O gösterimini yazınız.
+- Big-O gösterimini yazınız. <br/>
   Best O(n\*log n)  <br />
   Worst O(n\*log n) <br />
   Average O(n\*log n) <br />
