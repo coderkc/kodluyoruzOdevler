@@ -1,0 +1,18 @@
+html,
+body {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  font-size: calc(16px + (24 - 16) * (100vw - 400px) / (700 - 400));
+  color: #e98208;
+}
+
+div {
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 7px;
+}
+
+img {
+  width: 17%;
+}
