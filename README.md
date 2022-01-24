@@ -19,3 +19,6 @@
 
 
 ### [Bs Ödev\_\_03](https://coderkc.github.io/kodluyoruzOdevler/bs-odev3/)
+
+
+### [Js Ödev\_\_01](https://coderkc.github.io/kodluyoruzOdevler/js-odev1/)

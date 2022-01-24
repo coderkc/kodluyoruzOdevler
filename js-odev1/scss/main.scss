@@ -1,0 +1,31 @@
+body {
+  background: black;
+  height: 100vh;
+  background-attachment: fixed;
+  font-size: calc(16px + (24 - 16) * (100vw - 400px) / 400);
+  color: #e98208;
+}
+
+
+
+@import "analog-clock";
+
+div {
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 7px;
+}
+
+img {
+  width: 17%;
+}
+
+@media screen and (max-width: 475px) {
+  body {
+    font-size: 1.2rem;
+  }
+  img {
+    width: 40%;
+  }
+
+}
