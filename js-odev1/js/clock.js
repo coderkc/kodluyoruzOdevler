@@ -1,4 +1,4 @@
-let userName = prompt("Kullanıcı adınızı giriniz:");
+// let userName = prompt("Kullanıcı adınızı giriniz:");
 let nameNode = document.querySelector("#myName");
 
 let clockTxt = document.querySelector("#clock");
@@ -8,7 +8,7 @@ let secondHand = document.querySelector(".hand_second");
 
 let dayTxt = document.querySelector("#day");
 
-userName ? (nameNode.innerHTML = userName) : (nameNode.innerHTML = "Anonim");
+// userName ? (nameNode.innerHTML = userName) : (nameNode.innerHTML = "Anonim");
 
 function showHour() {
   let d, h, m, s, clock;

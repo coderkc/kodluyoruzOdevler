@@ -28,7 +28,7 @@ body {
   content: "";
   inset: -8px;
   border-radius: inherit;
-  background: radial-gradient(transparent 62%, #0214e2 62.2%, #a90000 79%);
+  background: radial-gradient(transparent 62%, #0214e2 62.2%, rgba(169, 0, 0, 0.5) 79%);
 }
 .analog-clock .face::after {
   position: absolute;
