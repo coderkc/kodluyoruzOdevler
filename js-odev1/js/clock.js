@@ -18,9 +18,12 @@ function showHour() {
   m = d.getMinutes();
   s = d.getSeconds();
 
-  //  clock = `${addZero(h)}:${addZero(m)}:${addZero(s)}`;
+  // clock = `${addZero(h)}:${addZero(m)}:${addZero(s)}`;
+  // console.log(clock);
 
-  let degH = 90 + (360 / 24) * h;
+  h >= 12 ? (h = h - 12) : h;
+
+  let degH = 90 + (360 / 12) * h;
   let degM = 90 + (360 / 60) * m;
   let degS = 90 + (360 / 60) * s;
 
@@ -58,8 +61,9 @@ function showDay() {
 
 showDay();
 
-function addZero(p) {
-  return p < 10 ? (p = "0" + p) : p;
+// adding zero before single digit number
+function addZero(n) {
+  return n < 10 ? (n = "0" + n) : n;
 }
 
 // Circle text
